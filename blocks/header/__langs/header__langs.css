@@ -1,0 +1,12 @@
+.header__langs {
+  display: flex;
+  column-gap: 18px;
+  height: 28px;
+}
+
+@media (max-width: 425px) {
+  .header__langs {
+    max-width: 60px;
+    max-height: 20px;
+  }
+}

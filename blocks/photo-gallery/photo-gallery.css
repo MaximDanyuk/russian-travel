@@ -1,0 +1,33 @@
+.photo-gallery {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(4, minmax(calc((100% - (3 * 16px)) / 4), 1fr));
+  grid-template-rows: repeat(3, minmax(calc((100% - (2 * 16px)) / 3), 1fr));
+}
+
+@media (max-width: 1024px) {
+  .photo-gallery {
+    gap: 14px;
+    grid-template-columns: repeat(
+      3,
+      minmax(calc((100% - (2 * 14px)) / 3), 1fr)
+    );
+    grid-template-rows: repeat(4, minmax(calc((100% - (3 * 14px)) / 4), 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .photo-gallery {
+    gap: 16px;
+    grid-template-columns: repeat(2, minmax(42%, 1fr));
+    grid-template-rows: repeat(6, minmax(calc((100% - (5 * 16px)) / 6), 1fr));
+  }
+}
+
+@media (max-width: 425px) {
+  .photo-gallery {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+}

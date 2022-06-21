@@ -1,0 +1,23 @@
+.lead_section {
+  margin-top: 56px;
+  margin-bottom: 96px;
+}
+
+@media (max-width: 1024px) {
+  .lead_section {
+    margin-top: 48px;
+    margin-bottom: 92px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead_section {
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead_section {
+    margin-bottom: 64px;
+  }
+}

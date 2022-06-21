@@ -1,0 +1,16 @@
+.footer_section {
+  margin-top: 92px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .footer_section {
+    margin-top: 88px;
+  }
+}
+
+@media (max-width: 650px) {
+  .footer_section {
+    padding-top: 64px;
+  }
+}

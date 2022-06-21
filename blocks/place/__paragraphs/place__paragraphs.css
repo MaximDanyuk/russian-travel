@@ -1,0 +1,23 @@
+.place__paragraphs {
+  max-width: 484px;
+  grid-area: text;
+}
+
+@media (max-width: 768px) {
+  .place__paragraphs {
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 650px) {
+  .place__paragraphs {
+    max-width: 100%;
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__paragraphs {
+    max-width: 288px;
+  }
+}
