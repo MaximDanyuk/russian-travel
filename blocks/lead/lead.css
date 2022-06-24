@@ -1,6 +1,7 @@
 .lead {
   max-height: 1005px;
 }
+
 @media (max-width: 1024px) {
   .lead {
     max-height: 962px;

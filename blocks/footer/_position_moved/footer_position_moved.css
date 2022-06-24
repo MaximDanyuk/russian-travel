@@ -1,0 +1,27 @@
+.footer_position_moved {
+  margin-top: 92px;
+  margin-bottom: 24px;
+  width: 100%;
+  padding: 0 48px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .footer_position_moved {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer_position_moved {
+    margin-top: 88px;
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 650px) {
+  .footer_position_moved {
+    padding: 0 118px 0 16px;
+    margin: 64px 0 24px 0;
+  }
+}

@@ -1,0 +1,17 @@
+.header_position_moved {
+  width: 100%;
+  padding: 0 48px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .header_position_moved {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header_position_moved {
+    padding: 0 16px;
+  }
+}
