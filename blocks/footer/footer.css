@@ -1,8 +1,9 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  max-height: 18px;
+  align-items: center;
   max-width: 1184px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {

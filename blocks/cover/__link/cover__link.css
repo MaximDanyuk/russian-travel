@@ -15,7 +15,6 @@
 .cover__link::before {
   content: "";
   position: absolute;
-  /* background-image: url(../.././/images/__overlay.png); */
   background-color: #2a2c2f;
   top: 0;
   left: 0;
