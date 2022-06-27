@@ -4,7 +4,7 @@
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .photo-gallery__image {
     align-self: stretch;
     justify-self: stretch;

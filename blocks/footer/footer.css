@@ -2,31 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1184px;
+  max-width: 100%;
   box-sizing: border-box;
-}
-
-@media (max-width: 1024px) {
-  .footer {
-    max-height: 18px;
-  }
 }
 
 @media (max-width: 768px) {
   .footer {
-    display: flex;
-    justify-content: space-between;
     max-width: 720px;
-    max-height: 18px;
   }
 }
 
 @media (max-width: 650px) {
   .footer {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    max-height: 310px;
     row-gap: 48px;
     align-items: flex-start;
   }

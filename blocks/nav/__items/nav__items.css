@@ -8,8 +8,8 @@
 
 @media (max-width: 650px) {
   .nav__items {
-    display: flex;
     flex-direction: column;
     row-gap: 32px;
+    align-items: flex-start;
   }
 }

@@ -5,11 +5,11 @@
   text-align: center;
   margin: 0 auto 32px auto;
   padding: 0;
+  max-width: 720px;
 }
 
 @media (max-width: 768px) {
   .lead__title {
-    margin: 0 auto 32px auto;
     font-size: 12.5vw;
   }
 }

@@ -1,4 +1,4 @@
-.places_position_moved {
+.places_theme_position {
   margin-top: 92px;
   margin-bottom: 92px;
   width: 100%;
@@ -7,27 +7,28 @@
 }
 
 @media (max-width: 1024px) {
-  .places_position_moved {
-    padding: 0 44px;
+  .places_theme_position {
+    padding: 0 48px;
   }
 }
 
 @media (max-width: 768px) {
-  .places_position_moved {
+  .places_theme_position {
     margin-top: 88px;
     margin-bottom: 90px;
+    padding: 0 24px;
   }
 }
 
 @media (max-width: 650px) {
-  .places_position_moved {
+  .places_theme_position {
     margin-top: 64px;
     margin-bottom: 68px;
   }
 }
 
 @media (max-width: 320px) {
-  .places_position_moved {
+  .places_theme_position {
     padding: 0;
   }
 }
