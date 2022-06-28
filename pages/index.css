@@ -15,7 +15,6 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/_theme/header_theme_position.css);
 @import url(../blocks/header/__lang/_type/_active/header__lang_type_active.css);
-@import url(../blocks/header/__image-wrapper/lead__image-wrapper.css);
 @import url(../blocks/intro/__about-russia-item/intro__about-russia-item.css);
 @import url(../blocks/intro/__about-russia/intro__about-russia.css);
 @import url(../blocks/intro/__number/intro__number.css);

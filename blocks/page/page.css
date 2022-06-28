@@ -4,12 +4,6 @@
   max-width: 1280px;
 }
 
-@media (max-width: 1024px) {
-  .page {
-    margin: 0 auto;
-  }
-}
-
 @media (max-width: 425px) {
   .page {
     padding-top: 16px;

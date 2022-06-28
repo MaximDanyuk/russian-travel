@@ -1,11 +1,16 @@
-.logo {
-  width: 176px;
-  height: 52px;
+.header__logo {
+  max-width: 176px;
+  max-height: 52px;
+  transition: opacity 0.2s linear;
 }
 
 @media (max-width: 425px) {
-  .logo {
+  .header__logo {
     max-width: 142px;
     max-height: 42px;
   }
+}
+
+.header__logo:hover {
+  opacity: 0.8;
 }

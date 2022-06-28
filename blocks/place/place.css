@@ -8,13 +8,7 @@
 
 @media (max-width: 900px) {
   .place {
-    gap: 48px 28px;
-  }
-}
-
-@media (max-width: 768px) {
-  .place {
-    gap: 48px 28px;
+    column-gap: 28px;
   }
 }
 

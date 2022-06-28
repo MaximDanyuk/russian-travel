@@ -8,6 +8,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .place_theme_position:not(.place_theme_position:last-child) {
+    margin-bottom: 88px;
+  }
+}
+
 @media (max-width: 650px) {
   .place_theme_position:not(.place_theme_position:last-child) {
     margin-bottom: 64px;
