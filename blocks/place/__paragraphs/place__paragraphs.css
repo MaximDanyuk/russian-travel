@@ -1,6 +1,7 @@
 .place__paragraphs {
   max-width: 484px;
-  grid-area: text;
+  grid-row: 2/4;
+  grid-column: 2/3;
 }
 
 @media (max-width: 768px) {

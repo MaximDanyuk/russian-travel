@@ -1,8 +1,7 @@
 .place {
   display: grid;
-  grid-template-areas:
-    "name url"
-    "photo text";
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr minmax(min-content max-content);
   gap: 48px 40px;
 }
 
